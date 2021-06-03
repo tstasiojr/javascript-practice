@@ -21,3 +21,23 @@ console.log(65465465460546546540654064065460n);
 console.log(BigInt("65465465460546546540654064065460"));
 
 console.log(typeof 65465465460546546540654064065460n)
+
+let value = 1,
+    two = 2;
+
+value -= 2;
+console.log(value);
+
+let hello = '<h1>hello';
+hello += ' world</h1>';
+console.log(hello);
+
+let index = 6;
+if(index <= 4) {
+    console.log(true);
+} else {
+    console.log(false);
+
+    
+    (index % 2) ? console.log('odd') : console.log('even');
+}
